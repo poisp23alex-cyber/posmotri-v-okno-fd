@@ -118,7 +118,7 @@ ol {
   opacity: 0;
 }
 
-.sesearch-form__checkbox:checked .search-form__pseudo-checkbox::after {
+.sesearch-form__checkbox:checked {
   opacity: 1;
 }
 
