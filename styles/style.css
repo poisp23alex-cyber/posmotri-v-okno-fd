@@ -118,9 +118,14 @@ ol {
   opacity: 0;
 }
 
-.sesearch-form__checkbox:checked {
-  opacity: 1;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after,
+.search-form__checkbox:active + .search-form__pseudo-checkbox::after {
+    opacity: 1;
 }
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+} 
 
 .search-form__label-text {
   /* color: #fff; */
