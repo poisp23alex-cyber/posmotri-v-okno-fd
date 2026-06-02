@@ -196,6 +196,7 @@ ol {
     width: 399px;
     height: 298px;
     gap: 30px;
+    position: relative;
 }
 
 .content__list {
