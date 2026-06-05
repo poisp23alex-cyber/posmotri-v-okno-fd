@@ -231,8 +231,8 @@ ol {
   text-decoration: underline;
 }
 
- .content__card-link:active, 
- .content__card-link_current {
+.content__card-link:active,
+.content__card-link_current {
   background-color: #545050;
 }
 
@@ -316,8 +316,7 @@ ol {
   border: 1px solid #fff;
 }
 
-
-.button:active {  
+.button:active {
   background-color: #545050;
 }
 
